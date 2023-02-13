@@ -44,8 +44,14 @@ console.log(cinco(5))
 //-----------------//
 
 //SEXTO...U EXERCÍCIO//
-let x = 6 > 5
-let y = 6 < 5
-console.log(x)
-console.log(y)
+function seis(n1, n2){
+    if (n1 > n2){
+        return true;
+    }
+    else (n1 < n2);{
+        return false
+    }
+}
+console.log(seis(6, 5));
+console.log(seis(5, 6));
 //SEXTO...U EXERCÍCIO//
